@@ -49,7 +49,7 @@ const Header = () => {
     >
       {/* Title and Subtitle */}
       <Typography variant="h4" component="h1" sx={{ fontWeight: "bold" }}>
-        Daniel Renard
+        Daniel Renard, M.A.
       </Typography>
       <Typography variant="subtitle1" component="h2" sx={{ color: "gray" }}>
         Technical Professional
@@ -185,6 +185,7 @@ const Header = () => {
             position: "absolute", // Position the logo absolutely relative to the header
             right: 25, // Space it from the right edge
             width: 100,
+            borderRadius: "16px",
           }}
         />
       )}
