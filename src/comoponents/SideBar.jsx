@@ -35,6 +35,7 @@ const Sidebar = () => {
         width: collapsed ? "80px" : "300px", // Set the width based on collapse state
         minWidth: collapsed ? "80px" : "300px", 
         height: "720px",
+        minHeight: '100vh',
         backgroundColor: "#f5f5f5",
         padding: collapsed ? "8px" : "16px", // Padding when collapsed vs open
         boxShadow: 2,
